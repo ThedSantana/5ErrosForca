@@ -1,0 +1,197 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|center_horizontal"
+    android:orientation="vertical"
+    tools:context="controller.Forca" >
+
+    <TextView
+        android:id="@+id/tv_forca_tit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_cinco_erros"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#eb9514" />
+
+    <Chronometer
+        android:id="@+id/crmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/img_forca"
+        android:layout_width="wrap_content"
+        android:layout_height="92dp"
+        android:contentDescription="@string/str_forca"
+        android:src="@drawable/forca" />
+
+    <TextView
+        android:id="@+id/tv_erros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_qtd_erros" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center|fill_horizontal" >
+
+        <EditText
+            android:id="@+id/txt_letra_um"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/letra_entra_style"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="center_horizontal"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:minHeight="40dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <EditText
+            android:id="@+id/txt_letra_dois"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/letra_entra_style"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="center_horizontal"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:minHeight="40dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <EditText
+            android:id="@+id/txt_letra_tres"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/letra_entra_style"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="center_horizontal"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:minHeight="40dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <EditText
+            android:id="@+id/txt_letra_quatro"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/letra_entra_style"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="center_horizontal"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:minHeight="40dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <EditText
+            android:id="@+id/txt_letra_cinco"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/letra_entra_style"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="center_horizontal"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:minHeight="40dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_titulo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_letra_desejada"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/txt_letra_entra"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/txt_letra_style"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:minHeight="50dp"
+            android:textSize="40sp"
+            android:typeface="sans" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_jogar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/forca_buttons_style"
+            android:onClick="fnTentar"
+            android:text="@string/str_tentar"
+            android:textSize="25sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tv_letras_digitadas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+</LinearLayout>

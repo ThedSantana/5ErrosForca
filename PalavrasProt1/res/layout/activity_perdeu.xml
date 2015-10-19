@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_style_3"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context="controller.Perdeu" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_perdeu"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_que_pena"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btn_tentar_novamente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/str_tentar_novamente"
+        android:background="@drawable/ganhou_buttons_style"
+        android:onClick="fnTentarNovamente" />
+
+    <Button
+        android:id="@+id/btn_menu_principal2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/str_menu"
+        android:background="@drawable/ganhou_buttons_style"
+        android:onClick="fnMenuPrincipal" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">5 Erros!</string>
+    <string name="str_cinco_erros">5 erros! Forca</string>
+    <string name="str_forca">Forca</string>
+    <string name="str_tentar">Tentar</string>
+    <string name="str_letra_desejada">Entre com a letra desejada:</string>
+    <string name="str_ganhou">Ganhou</string>
+    <string name="str_jogar">Jogar</string>
+    <string name="str_pontuacao">Pontuação</string>
+    <string name="str_ajuda">Ajuda</string>
+    <string name="str_parabens">Parabéns!</string>
+    <string name="str_menu">Menu Principal</string>
+    <string name="str_jogar_novamente">Próxima Palavra</string>
+    <string name="title_activity_perdeu">Perdeu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="str_perdeu">5 erros! Perdeu</string>
+    <string name="str_que_pena">Que pena!</string>
+    <string name="str_tentar_novamente">Tentar Novamente</string>
+    <string name="title_activity_pontuacao">Pontuacao</string>
+    <string name="str_vitorias">Vitórias:</string>
+    <string name="str_derrotas">Derrotas:</string>
+    <string name="str_numero">0s</string>
+    <string name="str_melhores">Melhores Tempos</string>
+    <string name="title_activity_ajuda">Ajuda</string>
+    <string name="str_ajuda_1">O jogo da forca tem como propósito que o jogador vá tentando letras até formar a palavra correta.</string>
+    <string name="str_ajuda_2">No "5 erros! Forca" cada tentativa errada soma ao número de erros e cada acerto diminui desse total.</string>
+    <string name="str_ajuda_3">É possível ter no máximo 5 erros, pois na sexta tentativa errada perde-se o jogo!</string>
+    <string name="str_bom_jogo">Bom Jogo!</string>
+    <string name="str_qtd_erros">Erros: 0</string>
+    <string name="title_activity_vencedor">Vencedor</string>
+    <string name="str_vc_e">Você é um</string>
+    <string name="str_vencedor">VENCEDOR</string>
+    <string name="str_breve">Estamos trabalhando para que em breve você possa se aventurar em novas palavras!</string>
+    <string name="str_em_breve">Em breve</string>
+
+</resources>

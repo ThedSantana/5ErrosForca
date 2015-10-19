@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="palavras.palavrasprot1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="controller.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="controller.Forca"
+            android:label="@string/str_forca"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="controller.Ganhou"
+            android:label="@string/str_ganhou"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="controller.Perdeu"
+            android:label="@string/title_activity_perdeu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="controller.Pontuacao"
+            android:label="@string/title_activity_pontuacao"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="controller.Ajuda"
+            android:label="@string/title_activity_ajuda"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="controller.Vencedor"
+            android:label="@string/title_activity_vencedor"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

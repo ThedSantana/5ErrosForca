@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+   	tools:context="controller.MainActivity"
+   	android:background="@drawable/bg_style" >
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_titulo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/str_forca"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#52d57e" />
+
+    <Button
+        android:id="@+id/btn_jogar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/main_buttons_style"
+        android:onClick="fnForca"
+        android:text="@string/str_jogar"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_pontuacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/main_buttons_style"
+        android:text="@string/str_pontuacao"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:onClick="fnPontuacao" />
+
+    <Button
+        android:id="@+id/btn_ajuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/main_buttons_style"
+        android:text="@string/str_ajuda"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:onClick="fnAjuda" />
+
+    <ImageView
+        android:id="@+id/img_forca2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/forca"
+        android:contentDescription="@string/str_forca" />
+
+</LinearLayout>
